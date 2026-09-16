@@ -287,12 +287,19 @@ tr:hover {
 }
 
 .project-card a {
+    display: inline-block;
     color: #2563eb;
     font-weight: bold;
+    padding: 8px 14px;
+    border-radius: 6px;
+    background: #e0edff;
+    transition: 0.3s;
 }
 
 .project-card a:hover {
-    text-decoration: underline;
+    text-decoration: none;
+    background: #2563eb;
+    color: white;
 }
 
 
